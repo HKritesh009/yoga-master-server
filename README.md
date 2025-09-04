@@ -12,7 +12,7 @@
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
 ### 🧑‍💻 User Management
 - Secure **JWT-based authentication**.
@@ -37,7 +37,7 @@
 - Store payment history and transaction IDs.
 - Calculate **total revenue, enrolled classes, and more**.
 
-### 📈 Analytics & Dashboard
+###  Analytics & Dashboard
 - **Popular classes** sorted by enrollments.
 - **Top instructors** aggregation with MongoDB pipelines.
 - Admin dashboard for **quick stats**:
@@ -45,13 +45,13 @@
   - Total enrollments
   - Total instructors
 
-### 🏆 Instructor Applications
+###  Instructor Applications
 - Students can apply to become instructors.
 - Track application status directly from the dashboard.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Frontend:** EJS, Bootstrap, HTML5, CSS3
 - **Backend:** Node.js, Express.js
@@ -61,25 +61,6 @@
 - **3D Animation & UI:** Three.js or Lottie.js (optional)
 
 ---
-
-## 🔥 3D Animation Demo
-
-Experience interactive 3D animations on the homepage and dashboards:
-
-```html
-<!-- Example using Lottie -->
-<div id="animation"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.7/lottie.min.js"></script>
-<script>
-  lottie.loadAnimation({
-    container: document.getElementById('animation'),
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'https://assets10.lottiefiles.com/packages/lf20_x62chJ.json' // link to your animation JSON
-  });
-</script>
-```
 ## ⚙️ Installation & Setup
  
 ### Clone the repo
@@ -94,41 +75,18 @@ cd YogaMaster
 npm install
 ```
 
-### Create .env file
-### Example:
-### PORT=5000
-### DB_USER=<your_mongo_user>
-### DB_PASS=<your_mongo_pass>
-### ACCESS_SECRET=<your_jwt_secret>
-### PAYMENT_SECRET=<your_stripe_secret>
+ Create .env file
+ Example:
+ PORT=5000
+ DB_USER=<your_mongo_user>
+ DB_PASS=<your_mongo_pass>
+ ACCESS_SECRET=<your_jwt_secret>
+ PAYMENT_SECRET=<your_stripe_secret>
 
 # Run the server
 ```
 npm start
 ```
-
-## Project Structure
-
-YogaMaster/
-│
-├── app.js
-├── package.json
-├── .env
-├── routes/
-│   ├── users.js
-│   ├── classes.js
-│   └── payments.js
-├── views/
-│   ├── layouts/
-│   ├── dashboard.ejs
-│   └── ...
-├── public/
-│   ├── css/
-│   ├── js/
-│   └── images/
-└── README.md
-
----
 
 ## 🤝 Contributing
 
@@ -140,11 +98,6 @@ Make sure to follow the coding conventions and include clear commit messages.
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## 🎨 Demo & Animation
-
 
 ---
 
